@@ -1,0 +1,32 @@
+.contact-content{
+        /* height: 280px; */
+        background-color: rgb(217, 217, 235);
+        /* display: flex; */
+        margin: auto;
+        background-image: url("newspaper.svg");
+        margin: auto;
+        z-index: -1;
+        height: 80vh;
+}
+        
+
+.contat-content::after{
+
+    background-image: url('home.svg');
+        content: "";
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        height: 500px;
+}
+
+.contact-box input, textarea{
+    width: 64vw;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid rgb(78, 83, 88);
+    border-radius: 14px;
+}
+.contact-box button{
+    /* padding-left: 50%; */
+}

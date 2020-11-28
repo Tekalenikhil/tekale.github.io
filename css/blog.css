@@ -1,0 +1,12 @@
+.blog-content{
+    width: 65%;
+    height: auto;
+    /* background-color: purple; */
+}
+.blog-content h1{
+    text-align: center;
+}
+.blog-box{
+    /* width: 80%; */
+    /* height: 30cto; */
+}
